@@ -19,5 +19,6 @@
 * [17 Input, Output, and Files](Part17/README.md)
 * [18 Visiting with the New C++ Standard](Part18/README.md)
 * [19 Other](Other/README.md)
-  * [C++ Primer Note](Other/C++ Primer Note)
+  * [C++ Primer Note](Other/C++ Primer Note.md)
+
 
