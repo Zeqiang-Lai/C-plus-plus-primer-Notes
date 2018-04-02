@@ -25,7 +25,7 @@ Note可以使用中文或者英文或者中英对照。
 
 
 
-**加入一份Note需要做**
+### 加入一份Note需要做
 
 1. 以Markdown形式书写你的Note文件
 2. 克隆这个仓库
@@ -37,14 +37,16 @@ Note可以使用中文或者英文或者中英对照。
 
 
 
-- 如何使用Git？
+### 如何使用Git？
 
-请参考这个网站 [learning.org](https://learngitbranching.js.org/)
+- [learning.org](https://learngitbranching.js.org/)
 
+- [Git教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013758392816224cafd33c44b4451887cc941e6716805c000)
 
+  ​
 
-- Markdown指南
+### Markdown指南
 
-[Basic writing and formatting syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
+- [Basic writing and formatting syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
+- [Markdown简易教程](Markdown-tutorial.md)
 
-[Markdown简易教程](Markdown-tutorial.md)
