@@ -53,9 +53,7 @@ https://desktop.github.com/
 
 你需要先Fork这个仓库（相当于创建一个属于你的副本）
 
-然后从你的账号中clone仓库，之后再commit,push你的更改。
-
-完成后提交你的Pull Request
+然后从你的账号中clone仓库
 
 
 
@@ -74,6 +72,7 @@ https://desktop.github.com/
 1. 将你的Note放入对应文件夹或者Other中。
 2. 修改Summary.md文件建立索引。
 3. 使用`GitHub Desktop`进行同步， 或者使用命令行等其他工具进行同步。
+4. 完成后提交你的Pull Request
 
 
 
@@ -84,6 +83,8 @@ https://desktop.github.com/
 - [learning.org](https://learngitbranching.js.org/)
 
 - [Git教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013758392816224cafd33c44b4451887cc941e6716805c000)
+
+- [GitHub Guides](https://guides.github.com/) 
 
   ​
 
