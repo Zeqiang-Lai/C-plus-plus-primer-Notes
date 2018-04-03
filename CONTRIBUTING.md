@@ -22,11 +22,11 @@ https://desktop.github.com/
 
 ## 3 克隆仓库
 
-直接下载或者使用下列命令
+你需要先Fork这个仓库（相当于创建一个属于你的副本）
 
-`cd [你放仓库的目录]`
+然后从你的账号中clone仓库，之后再commit,push你的更改。
 
-`git clone https://github.com/Zeqiang-Lai/C-plus-plus-primer-Notes.git`
+完成后提交你的Pull Request
 
 
 
@@ -44,4 +44,4 @@ https://desktop.github.com/
 
 1. 将你的Note放入对应文件夹或者Other中。
 2. 修改Summary.md文件建立索引。
-3. 使用`GitHub Desktop`进行同步， 或者使用命令进行同步。
+3. 使用`GitHub Desktop`进行同步， 或者使用命令行等其他工具进行同步。

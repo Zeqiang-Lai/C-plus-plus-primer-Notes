@@ -28,12 +28,13 @@ Note可以使用中文或者英文或者中英对照。
 ### 加入一份Note需要做
 
 1. 以Markdown形式书写你的Note文件
-2. 克隆这个仓库
+2. Fork并克隆这个仓库
 3. 把Note放入对应文件夹
 4. 修改`Summary.md`
 5. Commit 或 Push 你的更改
+6. 提交Pull request
 
-详情请见：[Contribution](Contribution.md)
+详情请见：[Contribution](CONTRIBUTING.md)
 
 
 
