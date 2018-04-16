@@ -18,7 +18,7 @@
 **例：**
 
 ```c++
-
+// TODO
 ```
 
 2. **使用函数返回值**
@@ -35,7 +35,58 @@
 
 ## 全新的异常处理机制
 
+这个机制主要有三个部分：
+
+1. 抛出异常
+2. 捕获异常
+3. 处理异常
+
+**例：**
+
+```c++
+try { // start of try block 
+    z = hmean(x,y); 
+} // end of try block 
+catch (const char * s) // start of exception handler 
+{
+	std::cout << s << std::endl;
+	std::cout << "Enter a new pair of numbers: ";
+	continue; 
+} // end of handler
+
+...
+double hmean(double a, double b) 
+{
+    if (a == -b)
+    throw "bad hmean() arguments: a = -b not allowed";
+    return 2.0 * a * b / (a + b); 
+}
+```
+
+**Note：**在这个例子中，我们可以看到异常机制的三部是怎么结合在一起的。
+
+- 首先在 `hmean()` 函数中，通过 `throw` 关键字抛出了一个异常（就是一个变量，可以是任何类型）。
+- 然后我们把调用 `hmean()` 的部分用 try catch 包裹起来。
+- 捕获异常的时候 `catch()` 括号里定义的变量要和抛出的变量类型相同。
+- 然后在 `catch` 块进行异常的处理。
+
+如果不catch这个异常，则程序会直接结束。
+
+### 抛出一个对象的例子
 
 
 
+```c++
+class bad_hmean { 
+private:
+    double v1;
+    double v2; 
+public:
+	bad_hmean(int a = 0, int b = 0) : v1(a), v2(b){}
+    void mesg();
+};
+inline void bad_hmean::mesg() {
+	std::cout << "hmean(" << v1 << ", " << v2 <<"): " << "invalid arguments: a = -b\n";
+}
+```
 
