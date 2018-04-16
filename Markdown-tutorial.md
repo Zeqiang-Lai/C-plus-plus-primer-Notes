@@ -4,6 +4,12 @@
 
 markdown本质为文本文件，后缀名为 `.md` ，由markdown预览器对其解析变成美观的排版文件。
 
+
+
+markdown写作软件推荐：
+
+全平台：[typora](https://www.typora.io)（目前免费）
+
 ## 语法
 
 
