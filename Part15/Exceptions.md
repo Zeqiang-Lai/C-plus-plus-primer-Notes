@@ -74,7 +74,7 @@ double hmean(double a, double b)
 
 ### 抛出一个对象的例子
 
-
+1. 先定义一个类：这个类是你到时候要抛出的东西
 
 ```c++
 class bad_hmean { 
@@ -89,4 +89,39 @@ inline void bad_hmean::mesg() {
 	std::cout << "hmean(" << v1 << ", " << v2 <<"): " << "invalid arguments: a = -b\n";
 }
 ```
+
+2. 然后抛出类的对象
+
+```c++
+double hmean(double a, double b) {
+    if (a == -b)
+    	throw bad_hmean(a,b);	// 实例化
+    return 2.0 * a * b / (a + b); 
+}
+```
+
+3. catch抛出来的对象
+
+```c++
+try
+{
+    z = hmean(x,y);
+} catch(bad_hmean &bg)
+{
+    bg.mesg();	// 使用这个对象获取一些关于错误的信息
+}
+```
+
+### Note
+
+1. **抛出异常时的内存处理** ： 当一个函数抛出异常时，系统会自动释放直到出现try catch块之间的所有嵌套调用的函数中的局部变量。
+
+
+2. 当catch的异常类具有继承关系时，catch的顺序要从派生类到基类。
+
+
+
+### 标准异常类
+
+头文件： `exception`  `stdexcept` 等
 
