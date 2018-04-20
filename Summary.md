@@ -14,6 +14,7 @@
 * [11 Working with Classes](Part11/README.md)
 * [12 Classes and Dynamic Memory Allocation](Part12/README.md)
 * [13 Class Inheritance](Part13/README.md)
+  * [动态绑定与虚函数](Part13/virtual-function.md)
 * [14 Reusing Code in C++](Part14/README.md)
 * [15 Friends, Exceptions, and More](Part15/README.md)
   * [类型判定(Runtime Type Identification)](Part15/RTTI.md)
