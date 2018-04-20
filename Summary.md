@@ -8,6 +8,7 @@
 * [6 Branching Statements and Logical Operators](Part6/README.md)
 * [7 Functions: C++’s Programming Modules](Part7/README.md)
 * [8 Adventures in Functions](Part8/README.md)
+  * [函数模版](Part8/Template.md)
 * [9 Memory Models and Namespaces](Part9/README.md)
 * [10 Objects and Classes](Part10/README.md)
 * [11 Working with Classes](Part11/README.md)
