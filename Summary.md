@@ -16,6 +16,7 @@
 * [13 Class Inheritance](Part13/README.md)
   * [访问权限控制](Part13/access-control.md)
   * [动态绑定与虚函数](Part13/virtual-function.md)
+  * [抽象类](Part13/abstract-class.md)
 * [14 Reusing Code in C++](Part14/README.md)
 * [15 Friends, Exceptions, and More](Part15/README.md)
   * [类型判定(Runtime Type Identification)](Part15/RTTI.md)
