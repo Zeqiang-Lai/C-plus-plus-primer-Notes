@@ -23,6 +23,7 @@
   * [友元(friend)](Part15/friend.md)
   * [异常处理](Part15/Exceptions.md)
 * [16 The string Class and the Standard Template Library](Part16/README.md)
+  * [迭代器](Part16/iterator.md)
 * [17 Input, Output, and Files](Part17/README.md)
 * [18 Visiting with the New C++ Standard](Part18/README.md)
 * [19 Other](Other/README.md)
