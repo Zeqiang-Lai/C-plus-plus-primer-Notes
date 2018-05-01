@@ -11,6 +11,8 @@
 * [8 Adventures in Functions](Part8/README.md)
   * [函数模版](Part8/Template.md)
 * [9 Memory Models and Namespaces](Part9/README.md)
+  * [编译与链接](Part9/compilation.md)
+  * [静态变量](Part9/static.md)
 * [10 Objects and Classes](Part10/README.md)
   * [构造函数](Part10/constructor.md)
   * [析构函数](Part10/destructor.md)
